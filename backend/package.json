@@ -1,0 +1,26 @@
+{
+  "name": "cyrus-ai-agent-factory",
+  "version": "1.0.0",
+  "description": "CYRUS AI AGENT FACTORY application",
+  "main": "backend.js",
+  "scripts": {
+    "start": "node backend.js"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.3.11",
+    "@solana/web3.js": "^1.91.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7",
+    "openai": "^4.76.0",
+    "puppeteer": "^23.10.1",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-stealth": "^2.11.1",
+    "uuid": "^9.0.0",
+    "winston": "^3.9.0"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC"
+}
